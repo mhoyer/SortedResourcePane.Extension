@@ -8,5 +8,7 @@ This software was not tested in deep by now (but will be soon). Thus use it AS I
 
 ## Installation
 
+Download [precompiled assembly](https://github.com/downloads/mhoyer/SortedResourcePane.Extension/SortedResourcePane.Extension.dll.zip) and extract the .dll to the Expression Blend 4 Extensions folder `C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\`.
+
 Simply build the solution. It will automatically try to copy the binary `SortedResourcePane.Extension.dll` to the Expression Blend 4 Extensions folder `C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\`. This means you need Administrator privileges to do so. 
 
