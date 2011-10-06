@@ -4,7 +4,7 @@ Did you ever noticed the unsorted list of resource files in the `Resources` pane
 
 ## Warning
 
-This software was not tested in deep by now (but will be soon). Thus use it AS IS and be aware of possible errors in Expression Blend (even if I did not saw any).
+This software was not tested in deep by now (but will be soon). Thus use it AS IS and be aware of possible errors in Expression Blend -- even if I did not see any issues by time of writing. To disable this extension, simply remove the .dll from the extensions folder and restart Blend.
 
 ## Installation
 
