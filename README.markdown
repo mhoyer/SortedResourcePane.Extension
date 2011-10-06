@@ -6,9 +6,20 @@ Did you ever noticed the unsorted list of resource files in the `Resources` pane
 
 This software was not tested in deep by now (but will be soon). Thus use it AS IS and be aware of possible errors in Expression Blend -- even if I did not see any issues by time of writing. To disable this extension, simply remove the .dll from the extensions folder and restart Blend.
 
+## Requirements
+
+* Expression Blend 4 w/ SP1 (4.0.20901.0)
+
+The following assemblies must exist in the root folder of Expression Blend 4:
+
+    Microsoft.Expression.DesignSurface.dll
+    Microsoft.Expression.Extensibility.dll
+    Microsoft.Expression.Framework.dll
+
 ## Installation
 
-Download [precompiled assembly](https://github.com/downloads/mhoyer/SortedResourcePane.Extension/SortedResourcePane.Extension.dll.zip) and extract the .dll to the Expression Blend 4 Extensions folder `C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\`.
+Download [precompiled assembly](https://github.com/downloads/mhoyer/SortedResourcePane.Extension/SortedResourcePane.Extension.dll.zip) and extract the .dll to the Expression Blend 4 Extensions folder:
+`%ProgramFiles%\Microsoft Expression\Blend 4\Extensions\`
 
-Simply build the solution. It will automatically try to copy the binary `SortedResourcePane.Extension.dll` to the Expression Blend 4 Extensions folder `C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\`. This means you need Administrator privileges to do so. 
+Simply build the solution. It will automatically try to copy the binary `SortedResourcePane.Extension.dll` to the Expression Blend 4 Extensions folder. This means you need Administrator privileges to do so.
 
