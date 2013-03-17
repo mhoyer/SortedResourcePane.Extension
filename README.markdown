@@ -9,8 +9,9 @@ This software was not tested in deep by now (but will be soon). Thus use it AS I
 ## Requirements
 
 * Expression Blend 4 w/ SP1 (4.0.20901.0)
+* Expression Blend Preview for Silverlight 5 (4.1.20402.0)
 
-The following assemblies must exist in the root folder of Expression Blend 4:
+The following assemblies must exist in the root folder of Expression Blend:
 
     Microsoft.Expression.DesignSurface.dll
     Microsoft.Expression.Extensibility.dll
@@ -18,8 +19,19 @@ The following assemblies must exist in the root folder of Expression Blend 4:
 
 ## Installation
 
-Download [precompiled assembly](https://github.com/downloads/mhoyer/SortedResourcePane.Extension/SortedResourcePane.Extension.dll.zip) and extract the .dll to the Expression Blend 4 Extensions folder:
-`%ProgramFiles%\Microsoft Expression\Blend 4\Extensions\`
+### Download precompiled assembly
 
-Simply build the solution. It will automatically try to copy the binary `SortedResourcePane.Extension.dll` to the Expression Blend 4 Extensions folder. This means you need Administrator privileges to do so.
+* [SortedResourcePane.Blend4.Extension-0.2.0.zip](http://pixelplastic.de/dl/SortedResourcePane.Blend4.Extension-0.2.0.zip) 
+* [SortedResourcePane.Blend5.Extension-0.2.0.zip](http://pixelplastic.de/dl/SortedResourcePane.Blend5.Extension-0.2.0.zip) 
+
+Extract the containing .dll to the Expression Blend Extensions folder.
+
+* for Blend 4: `%ProgramFiles%\Microsoft Expression\Blend 4\Extensions\`
+* for Blend 5: `%ProgramFiles%\Microsoft Expression\Blend Preview for Silverlight 5\Extensions`
+
+_You may need to create the `Extensions` folder._
+
+### Build it on your own
+
+Simply build the solution. It will automatically try to copy the binary `SortedResourcePane.Blend#.Extension.dll` to the Expression Blend Extensions folder. This means you need Administrator privileges to do so - or simply modify target folder ACLs.
 
