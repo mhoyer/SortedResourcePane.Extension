@@ -27,7 +27,7 @@ The following assemblies must exist in the root folder of Expression Blend:
 Extract the containing .dll to the Expression Blend Extensions folder.
 
 * for Blend 4: `%ProgramFiles%\Microsoft Expression\Blend 4\Extensions\`
-* for Blend 5: `%ProgramFiles%\Microsoft Expression\Blend Preview for Silverlight 5\Extensions`
+* for Blend 5: `%ProgramFiles%\Microsoft Expression\Blend Preview for Silverlight 5\Extensions\`
 
 _You may need to create the `Extensions` folder._
 
