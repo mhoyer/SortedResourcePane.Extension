@@ -41,7 +41,7 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="..\SortedResourcePane\SortedResourcePane.cs">
+    <Compile Include="..\SortedResourcePane.Blend4\SortedResourcePane.cs">
       <Link>SortedResourcePane.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
