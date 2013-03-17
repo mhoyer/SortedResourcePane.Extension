@@ -8,7 +8,7 @@ using Microsoft.Expression.DesignSurface.UserInterface.ResourcePane;
 using Microsoft.Expression.Extensibility;
 using Microsoft.Expression.Framework.UserInterface;
 
-namespace Pixelplastic.SortedResourcePane
+namespace Pixelplastic.Expression.Blend.SortedResourcePane
 {
     [Export(typeof(IPackage))]
     public class SortedResourcePane : IPackage

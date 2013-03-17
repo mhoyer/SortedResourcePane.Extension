@@ -8,8 +8,8 @@
     <ProjectGuid>{07F5A1CD-1334-49C3-A06B-E9997818A8D9}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Pixelplastic.SortedResourcePane</RootNamespace>
-    <AssemblyName>SortedResourcePane.Extension</AssemblyName>
+    <RootNamespace>Pixelplastic.Expression.Blend.SortedResourcePane</RootNamespace>
+    <AssemblyName>SortedResourcePane.Blend4.Extension</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -59,6 +59,9 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="SortedResourcePane.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
