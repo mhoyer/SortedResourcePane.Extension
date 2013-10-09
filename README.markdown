@@ -10,6 +10,7 @@ This software was not tested in deep by now (but will be soon). Thus use it AS I
 
 * Expression Blend 4 w/ SP1 (4.0.20901.0)
 * Expression Blend Preview for Silverlight 5 (4.1.20402.0)
+* Expression Blend for Visual Studio 2012 (5.0.40218.0)
 
 The following assemblies must exist in the root folder of Expression Blend:
 
@@ -23,11 +24,13 @@ The following assemblies must exist in the root folder of Expression Blend:
 
 * [SortedResourcePane.Blend4.Extension-0.2.0.zip](http://pixelplastic.de/dl/SortedResourcePane.Blend4.Extension-0.2.0.zip) 
 * [SortedResourcePane.Blend5.Extension-0.2.0.zip](http://pixelplastic.de/dl/SortedResourcePane.Blend5.Extension-0.2.0.zip) 
+* [SortedResourcePane.Blend2012.Extension-0.3.0.zip](http://pixelplastic.de/dl/SortedResourcePane.Blend2012.Extension-0.3.0.zip) 
 
 Extract the containing .dll to the Expression Blend Extensions folder.
 
 * for Blend 4: `%ProgramFiles%\Microsoft Expression\Blend 4\Extensions\`
 * for Blend 5: `%ProgramFiles%\Microsoft Expression\Blend Preview for Silverlight 5\Extensions\`
+* for Blend 2012: `%ProgramFiles%\Microsoft Visual Studio 11.0\Blend\Extensions\`
 
 _You may need to create the `Extensions` folder._
 
