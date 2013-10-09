@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedResourcePane.Blend5",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedResourcePane.Blend4", "SortedResourcePane.Blend4\SortedResourcePane.Blend4.csproj", "{07F5A1CD-1334-49C3-A06B-E9997818A8D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedResourcePane.Blend2012", "SortedResourcePane.Blend2012\SortedResourcePane.Blend2012.csproj", "{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{07F5A1CD-1334-49C3-A06B-E9997818A8D9}.Release|Mixed Platforms.Build.0 = Release|x86
 		{07F5A1CD-1334-49C3-A06B-E9997818A8D9}.Release|x86.ActiveCfg = Release|x86
 		{07F5A1CD-1334-49C3-A06B-E9997818A8D9}.Release|x86.Build.0 = Release|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Debug|x86.ActiveCfg = Debug|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Debug|x86.Build.0 = Debug|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Release|Any CPU.ActiveCfg = Release|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Release|Mixed Platforms.Build.0 = Release|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Release|x86.ActiveCfg = Release|x86
+		{0FF58E8E-ADA8-49C0-985F-C6031816C6A9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
